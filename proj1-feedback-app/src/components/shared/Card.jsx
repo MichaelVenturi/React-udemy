@@ -7,7 +7,6 @@ const Card = ({ children, reverse }) => {
         color: reverse ? "#fff" : "#333",
       }}>
       {children}
-      <div>test</div>
     </div>
   );
 };
