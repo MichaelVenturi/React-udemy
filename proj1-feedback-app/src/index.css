@@ -41,6 +41,10 @@ header {
   position: relative;
 }
 
+.active:first-child {
+  color: #ff6a95;
+}
+
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
